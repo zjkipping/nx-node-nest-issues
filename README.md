@@ -1,5 +1,16 @@
 # nx-node-nest-issues
 
+## Setup
+
+1. Run `npm i` inside the workspace version directory you want to run.
+
+2. Run `npm start` inside the same workspace version directory
+
+3. Navigate to `http://localhost:3333/api/`
+
+4. (if on a workspace that has errors)
+   Look in the console/terminal for the runtime internal errors
+
 ## Versions where things break
 
 Errors upgrading a Nest server making use of `json-server` as a middleware
